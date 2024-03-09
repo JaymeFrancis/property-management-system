@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+* {   
+    box-sizing: border-box;
+    word-wrap: break-word !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f3f5f9;
+}
+
+.navbar {
+    background-color: rgb(222, 215, 196);
+}
+
+.nav {
+    padding-top: 10px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: inherit;
+}
+
+.nav-bar {
+    color: rgb(35, 59, 139);
+    padding-left: 10px;
+}
+
+.nav-text h2, h3{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.nav-link{
+    color: rgb(35, 59, 139);
+    font-weight: bold;
+}
+
+/* Log in Form CSS */
+.index-logo {
+    height: 140px;
+    width: 140px;
+}
+
+
+.index {
+    background-image: url(../images/slc.jpg);
+    background-size: cover;
+}
+
+.login-form {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgb(35, 59, 139);
+}
+
+.login-form h1 { 
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+
+.login-form label{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.login-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border-style: solid;
+    border-color: rgb(35, 59, 139);
+    border: 1;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.login-form button {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;  
+    background-color:rgb(35, 59, 139);
+    border: 0;
+}
+
+.navbar button {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;  
+    background-color:rgb(35, 59, 139);
+    border: 0;
+}
+

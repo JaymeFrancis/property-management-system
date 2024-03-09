@@ -1,0 +1,156 @@
+@import url(//db.onlinewebfonts.com/c/f3258385782c4c96aa24fe8b5d5f9782?family=Old+English+Text+MT);
+
+@font-face {
+  font-family: "Old English Text MT"; 
+  src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot"); 
+  src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot?#iefix") 
+  format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff2") 
+  format("woff2"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.svg#Old English Text MT") format("svg"); 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Open Sans';
+  font-size: 18px;
+}
+
+body{
+   background-color: #eef5fd;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.wrapper .sidebar{
+  width: 280px;
+  height: 100%;
+  background: #2a75d8;
+  padding: 0px 5px 15px 0px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.wrapper .sidebar .user-profile{
+  bottom: 15px;
+  position: -webkit-sticky;
+  width: 260px;
+  margin-top: auto;
+  margin: 0 10px 0 10px;
+  background-color: #f0f0f0;
+  color: #2a75d8;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+.wrapper .sidebar .user-profile p{
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.wrapper .sidebar .nav-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px 5px 15px 15px;
+  border-radius: 10px;
+  text-align:left;
+}    
+
+.wrapper .sidebar ul li .sub-btn:hover{
+  text-indent: 10px;
+}
+
+.wrapper .sidebar ul li .sub-btn{
+  margin-left: 5px;
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+
+.wrapper .sidebar ul li .sub-item{
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 12px;
+  color: #2a75d8;
+  text-decoration: none;
+}
+
+.wrapper .sidebar ul li ul li .sub-item:hover{
+  color: #4b4b4b;
+}
+
+.wrapper .sidebar ul li .sub-menu{
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 280px;
+}
+
+.wrapper .main_content .header{
+  width: 100%;
+  top: 0;
+  position: relative;
+  background-color: #f0f0f0;
+  color: #4b4b4b;
+  padding: 15px 15px 10px 15px; 
+  border-bottom-style: solid; 
+  border-bottom-color: #2a75d8; 
+  border-bottom-width: 3px;
+}
+
+.wrapper .main_content .header img{
+  width: 90px;
+  height: 90px;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #4b4b4b;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info .page-title h2{
+  font-weight: bolder;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+.wrapper .main_content .info .card-header{
+  background-color: #2a75d8;
+  color: #f0f0f0;
+}
+
+#example thead{
+  background-color: #2a75d8;
+  color: #f0f0f0;
+}
+
+.modal .modal-dialog .modal-content .modal-header{
+  background-color: #2a75d8;
+  color: #f0f0f0;
+  font-weight: bold;
+}
